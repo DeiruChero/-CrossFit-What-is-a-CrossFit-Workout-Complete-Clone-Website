@@ -1,0 +1,368 @@
+/* Created By Nitansh Koshta */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: arial;
+}
+.Register{
+    text-decoration: underline;
+}
+.Register:hover{
+    cursor: pointer;
+}
+.p-1{
+    text-align: center;
+    margin-top: 5px;
+    padding-top: 10px;
+    color: #fff;
+    font-family: arial;
+}
+.header-1{
+    background-color: #075dc6;
+    height: 40px;
+}
+.img-1{
+    height: 120px;
+    width: 170px;
+    border-right: 1px solid snow;
+}
+.img-1:hover{
+    cursor: pointer;
+}
+.OPEN{
+    background-color: black;
+    height: 40px;
+    margin-top: -125px;
+    color: silver;
+}
+.OPEN:hover{
+    cursor: pointer;
+    color: white;
+}
+.p-2{
+    float: right;
+    padding-top: 14px;
+    margin-right: 30px;
+    font-size: 12px;
+}
+.navbar{
+    background-color: black;
+    border-top: 1px solid snow;
+    height: 81px;
+}
+.ul-list-1{
+    color: white;
+    display: flex;
+    gap: 40px;
+    list-style-type: none;
+    margin-left: 200px;
+    margin-top: 40px;
+    font-weight: bolder;
+}
+.li-list-1:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+.ul-list-2{
+    color: white;
+    display: flex;
+    gap: 40px;
+    list-style-type: none;
+    margin-left: 1120px;
+    margin-top: -40px;
+    font-weight: bolder;
+}
+.li-list-2:nth-child(1){
+    background-color: #1D1D1D;
+    border: none;
+}
+.li-list-2{
+    border: 2px solid white;
+    padding: 15px;
+    border-radius: 20px;
+}
+.li-list-2:hover{
+    cursor: pointer;
+    text-decoration: underline;
+    background-color: white;
+    color: black;
+    text-decoration: none;
+}
+.heading-1{
+    margin-left: 170px;
+    font-size: 60px;
+    margin-top: 40px;
+}
+.by{
+    margin-left: 170px;
+    color: gray;
+    font-weight: bolder;
+}
+.span-1{
+    color: gray;
+    margin-left: 170px;
+    margin-top: 20px;
+    display: inline-block;
+    font-weight: bolder;
+}
+.Essentials{
+    margin-left: 240px;
+    color: #075dc6;
+    font-weight: bolder;
+    margin-top: -18px;
+}
+.Essentials:hover{
+    color: gray;
+    cursor: pointer;
+}
+.twitterlogo:hover{
+    cursor: pointer;
+    animation: twitterlogoanimation .4s linear 1 alternate-reverse;
+}
+.emaillogo:hover{
+    cursor: pointer;
+    animation: emaillogoanimation .4s linear 1 alternate;
+}
+@keyframes twitterlogoanimation {
+    0%{
+        rotate: 0deg;
+    }
+    100%{
+        rotate: 360deg;
+    }
+}
+@keyframes emaillogoanimation {
+    0%{
+        rotate: 0deg;
+    }
+    100%{
+        rotate: 360deg;
+    }
+}
+.What{
+    margin-left: 170px;
+    font-size: 20px;
+    margin-right: 200px;
+}
+.temp{
+    color: #075dc6;
+    font-weight: bolder;
+}
+.temp:hover{
+    color: gray;
+    cursor: pointer;
+}
+.fattylady{
+    margin-left: 170px;
+    height: 90vh;
+    width: 80vw;
+}
+.fattylady:hover{
+    cursor: pointer;
+}
+.btn-1{
+    margin-left: 170px;
+    background-color: #075dc6;
+    display: inline-block;
+    padding: 12px 22px;
+    color: white;
+    border-radius: 40px;
+    font-size: 12px;
+    font-weight: bolder;
+}
+.comments{
+    margin-left: 170px;
+    font-weight: bolder;
+    font-size: 30px;
+}
+#Message{
+    color: blue;
+    font-size: 30px;
+}
+#Message:hover{
+    cursor: pointer;
+}
+.black{
+    height: 20px;
+    width: 80px;
+    background-color: black;
+    margin-left: 170px;
+    margin-top: 20px;
+    margin-bottom: -20px;
+}
+.ul-list-3{
+    margin-left: 170px;
+    display: flex;
+    gap: 30px;
+    list-style-type: none;
+    font-weight: bolder;
+    color: #6D6C6C;
+    margin-bottom: -20px;
+}
+#Link{
+    color: #075dc6;
+}
+.btn-2{
+    margin-left: 1040px;
+    background-color: #075dc6;
+    display: inline-block;
+    padding: 12px 22px;
+    color: white;
+    border-radius: 40px;
+    font-size: 12px;
+    font-weight: bolder;
+    margin-top: -2200px;
+}
+.btn-1:hover, .btn-2:hover{
+    cursor: pointer;
+    background-color: rgba(7, 93, 198, 0.8);
+}
+.footer{
+    margin-left: 170px;
+    background-color: #EEEEEE;
+    height: 60px;
+    margin-right: 160px;
+    padding-top: 25px;
+    padding-left: 40px;
+    font-weight: bolder;
+    font-size: 12px;
+    color: gray;
+}
+#LArrow{
+    color: gray;
+}
+.footer-ul-1{
+    margin-left: 170px;
+    list-style-type: none;
+    font-size: 15px;
+}
+.footer-li-1:nth-child(1){
+    font-weight: bolder;
+    font-size: 17px;
+}
+.footer-ul-2{
+    margin-left: 370px;
+    list-style-type: none;
+    font-size: 15px;
+    margin-top: -277px;
+}
+.footer-li-2:nth-child(1){
+    font-weight: bolder;
+    font-size: 17px;
+}
+.footer-ul-3{
+    margin-left: 570px;
+    list-style-type: none;
+    font-size: 15px;
+    margin-top: -190px;
+}
+.footer-li-3:nth-child(1){
+    font-weight: bolder;
+    font-size: 17px;
+}
+.footer-ul-4{
+    margin-left: 770px;
+    list-style-type: none;
+    font-size: 15px;
+    margin-top: -190px;
+}
+.footer-li-4:nth-child(1){
+    font-weight: bolder;
+    font-size: 17px;
+}
+.footer-ul-5{
+    margin-left: 970px;
+    list-style-type: none;
+    font-size: 15px;
+    margin-top: -190px;
+}
+.footer-li-5:nth-child(1){
+    font-weight: bolder;
+    font-size: 17px;
+}
+.footer-ul-6{
+    margin-left: 1170px;
+    list-style-type: none;
+    font-size: 15px;
+    margin-top: -216px;
+    margin-bottom: 20px;
+}
+.footer-li-6:nth-child(1){
+    font-weight: bolder;
+    font-size: 17px;
+}
+.btn-3{
+    margin-left: 1140px;
+    background-color: #075dc6;
+    display: inline-block;
+    padding: 12px 22px;
+    color: white;
+    border-radius: 40px;
+    font-size: 12px;
+    font-weight: bolder;
+    margin-top: 10px;
+}
+.Start{
+    margin-left: 1170px;
+    margin-top: -20px;
+    color: #6D6D6D;
+}
+.Subscribe{
+    color: #6D6D6D;
+    margin-left: 970px;
+    font-size: 12px;
+}
+.box{
+    height: 20px;
+    border: 1px solid silver;
+    margin-left: 970px;
+    margin-top: 10px;
+    width: 400px;
+    padding: 20px;
+    color: silver;
+    padding-bottom: 40px;
+    padding-top: -20px;
+}
+.btn-4{
+    margin-left: 980px;
+    background-color: rgba(7, 93, 198,0.5);
+    display: inline-block;
+    padding: 12px 22px;
+    color: white;
+    border-radius: 40px;
+    font-size: 12px;
+    font-weight: bolder;
+    margin-top: 10px;
+}
+.btn-4:hover{
+    cursor: default;
+}
+.Copy{
+    margin-left: 170px;
+    margin-right: 100px;
+    color: #6D6D6D;
+    font-size: 12px;
+}
+.last-ul{
+    display: flex;
+    gap: 25px;
+    font-weight: bolder;
+    color: gray;
+    margin-left: 170px;
+    list-style-type: none;
+    font-size: 12px;
+}
+.LAST{
+    color: black;
+    height: 200px;
+    font-size: 25px;
+    margin-left: 1070px;
+    margin-top: -20px;
+}
+.LAST:hover{
+    cursor: default;
+}
+#LAst:hover{
+    cursor: pointer;
+}
